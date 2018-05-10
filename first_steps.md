@@ -23,9 +23,21 @@ If necessary, there is an available module inside the NLP Package called "Downlo
 
 ### Acessing your own corpus
 
-To access your corpus to use it on the workflow, first it is necessary to create a variable for it. There is a specif type for directories inside the menu Basics [img1]. Drag the module to the panel and select it. On the right-sided menu, above the options click on the Pin icon [img2] to use the input mode inside the modules - is expected that the Directory Module shows an entry-text box. Input the refered directory or select it through the widget button besides the entry-box.
+To access your corpus to use it on the workflow, first it is necessary to create a variable for it. There is a specif type for directories inside the menu Basics.
 
-The module can be linked, then, to the NLP package's module "LoadMyModule" using the output port(Directory)[img3] - if the box are put close to each other the link is automatical. This box will load the corpus and create an object to be used as a corpus by NLTK. 
+![title](img/img1.png)
+
+Drag the module to the panel and select it. On the right-sided menu, above the options click on the Pencil icon 
+![title](img/img2.png)
+to use the input mode inside the modules - is expected that the Directory Module shows an entry-text box.
+![title](img/img3.png)
+Input the refered directory or select it through the widget button besides the entry-box.
+
+The module can be linked, then, to the NLP package's module "LoadMyModule" using the output port(Directory) - if the box are put close to each other the link is automatical. 
+
+![title](img4.png)
+
+This box will load the corpus and create an object to be used as a corpus by NLTK. 
 
 ### Acessing an NLTK Corpus
 
