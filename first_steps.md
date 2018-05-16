@@ -4,15 +4,23 @@
 
 ### Setting up
 
-The NLTK Package can be easily installed via pip through the terminal. If you're using linux
+The NLTK Package can be easily installed via pip through the terminal. If you're using unix, type;
 
-    type sudo pip install nltk
+     sudo pip install nltk
 
 It is better to setup the package before Vistrails use to avoid substantial errors through installation. Furthermore, it would be recommended also to setup the NLTK environment by previously downloading the package's content. Use the command
  
     sudo python
     >import nltk
     >nltk.download()
+
+It will open an window to manage and download the desired NLTK's content.
+
+![title](img/img6.png)
+    
+To download all the data, run **
+
+    python -m nltk.downloader all
 
 If necessary, there is an available module inside the NLP Package called "DownloadCorpus" that executes the script above.
 
