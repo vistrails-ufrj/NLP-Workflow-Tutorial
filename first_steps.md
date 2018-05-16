@@ -27,7 +27,13 @@ If necessary, there is an available module inside the NLP Package called "Downlo
 ** The corpora is an extense content and the download process may be long.
 *** '>' indicates the Python Environment
 
+### Getting Started
 
+The Natural Language Processing (NLP) must be enabled for use. Acess Edit->Packages and select the package.
+
+![title](img/img7.png)
+
+The NLTK lib provides tools for processing text and so some samples for the users. However, it is possible, also, to process the users provided data. Above, some instructions to use or create a corpus, a group of text, for exploration.
 
 ### Acessing your own corpus
 
