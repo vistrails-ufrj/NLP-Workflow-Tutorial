@@ -16,7 +16,7 @@ It is better to setup the package before Vistrails use to avoid substantial erro
 
 It will open an window to manage and download the desired NLTK's content.
 
-![title](img/img1.png)
+![title](img/img6.png)
     
 To download all the data, run **
 
